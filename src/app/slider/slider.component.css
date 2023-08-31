@@ -1,0 +1,43 @@
+
+@media screen and (min-width: 768px) {
+    .slider-container{
+        width: 100%;
+    }
+    .slider{
+        background-image: url(../../assets/img/slider1.jpg);
+        background-size: cover;
+        height: 450px;
+        width: 100%;
+        animation: animate 6s infinite;
+        background-position: center;
+    }
+    @keyframes animate {
+        50%{
+            background-image: url(../../assets/img/slider4.jpg);
+            background-size: cover;
+        }
+        
+    }
+}
+/* pagina web en celular */
+@media screen and (max-width: 767px) {
+
+    .slider-container{
+        width: 100%;
+    }
+    .slider{
+        background-image: url(../../assets/img/slider1.jpg);
+        background-size: cover;
+        height: 200px;
+        width: 100%;
+        animation: animate 6s infinite;
+        background-position: center;
+    }
+    @keyframes animate {
+        50%{
+            background-image: url(../../assets/img/slider4.jpg);
+            background-size: cover;
+        }
+        
+    }
+}
