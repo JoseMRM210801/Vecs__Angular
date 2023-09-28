@@ -1,12 +1,7 @@
 .texto {
   text-align: center;
 }
-.principal {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; /* Adjust as needed */
-  padding: 20px; /* Add some padding for spacing */
-}
+
 .card {
   display: flex;
   flex-direction: column;
