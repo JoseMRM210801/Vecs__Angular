@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class VecsService {
 
   private myAppUrl = 'http://localhost:90/';
-  private myApiUrl = 'api/vecs/';
+  private myApiUrl = 'api/vecsp/';
 
   constructor(private http: HttpClient) { }
 
